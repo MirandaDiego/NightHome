@@ -1,0 +1,33 @@
+users
+- id
+- name
+- email
+-state
+- passwordHash
+- toke
+
+
+classe
+- id
+- classe
+- preco
+- horas
+
+
+putas
+-id
+-imagens_putas({url, default:true})
+- nome
+-idade
+id_classe
+
+puteiro
+-id 
+id_sede
+aberto
+- id_puta
+
+
+sedes 
+id
+name

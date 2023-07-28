@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de formulário</title>
+    <link rel="stylesheet" href="/css/comeco.css">
+</head>
+<body>
+    <div class="screen">
+        <div class="leftside">
+            <img src="/images/logo.jpg" alt="">
+        </div>
+        <div class="rightside">
+            <h1>Entrar</h1>
+
+
+            <form action="/login" method="POST">
+               
+                <label for="">
+                    Seu e-mail: <br>
+                    <input type="text" name="email" data-rules="required|email">
+                </label>
+                <label for="">
+                    Seu senha: <br>
+                    <input type="password" name="password" data-rules="required|min=6">
+                </label>
+                <label for="">
+                   
+                  
+                </label>
+                
+                <input type="submit" value="Entrar" class="Cadastrar" id="bt" >
+                
+            </form>
+
+            <div>
+                
+                 <a href="/page">Entrar sem fazer login</a>
+            </div>
+        </div> 
+    </div>
+
+
+    <script >
+         
+    </script>
+
+    
+</body>
+</html>

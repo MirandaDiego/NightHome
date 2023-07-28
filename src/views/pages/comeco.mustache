@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de formulário</title>
+    <link rel="stylesheet" href="/css/comeco.css">
+</head>
+<body>
+    <div class="screen">
+        <div class="leftside">
+            <img src="/images/logo.jpg" alt="">
+        </div>
+        <div class="rightside">
+            <h1>Crie uma conta</h1>
+
+            <form action="/registro" method="POST">
+                <label for="">
+                    Seu nome: <br>
+                    <input type="text" name="nome" data-rules="required|min=2">
+                </label>
+                <label for="">
+                    Seu e-mail: <br>
+                    <input type="text" name="email" data-rules="required|email">
+                </label>
+                <label for="">
+                    Seu senha: <br>
+                    <input type="password" name="password" data-rules="required|min=6">
+                </label>
+                <label for="">
+                    <input type="submit" value="Cadastrar" class="Entrar" >
+                    <br> <br>
+                  
+                </label>
+            </form>
+
+           
+            <div class="links">
+                <a href="/entrar">Já tenho uma conta</a>
+                
+                 <a href="/page">Entrar sem fazer login</a>
+            </div>
+        </div> 
+    </div>
+
+
+    <script >
+         
+    </script>
+
+    
+</body>
+</html>

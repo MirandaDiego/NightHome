@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+ 
+body{
+    margin: 0;
+}
+.screen{
+    display: flex;
+    height: 100vh;
+}
+.leftside{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftside img{
+   max-width: 700px;
+    height: auto;
+}
+.rightside{
+    width: 400px;
+    background-color: #ddd;
+    padding: 50px ;
+}
+.rightside label{
+    display: block;
+    margin-bottom: 20px;
+}
+.rightside input {
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    outline: 0;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+   
+}
+a{
+    color: black;
+}
+a:hover{
+    color: rgb(207, 36, 36);
+}
+
+.error{
+    font-size: 15px;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.Entrar{
+    cursor: pointer;
+    color: #ff0000;
+}
+
+.Entrar:hover{
+    background-color: #efefef73;
+}
+.Cadastrar:hover{
+    background-color: #efefef73;
+}
+
+.Cadastrar{
+    cursor: pointer;
+    color: green;
+}
